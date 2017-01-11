@@ -1,0 +1,9 @@
+use jadrn032;
+
+drop table if exists Report;
+
+CREATE TABLE Report (
+sku VARCHAR(30) NOT NULL,
+quantity INTEGER(10) NOT NULL,
+orderdate VARCHAR(15) NOT NULL
+);

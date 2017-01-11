@@ -1,0 +1,99 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding: 0;
+	font-family: 'Amatic';
+	background-color: #f96353;
+}
+
+#heading {
+	width:100%;
+	height:auto;
+	margin:auto;
+	text-align: center;
+	padding: 0;
+}
+
+#heading h1 {
+	font-family: 'Amatic';
+	font-size: 70px;
+	margin: 0px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+#menu {
+	margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+    padding-left: 15%;
+    padding-bottom: 1%;
+    overflow: hidden;
+    font-size: 27px;
+}
+
+li {
+    float: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+i
+{
+	display: inline;
+	color: black;
+}
+
+li a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: brown;
+}
+
+.active {
+	color: brown;
+
+}
+
+h2 {
+	text-align: center;
+	margin: 10px;
+	font-size: 40px;
+	color: #fee9e6;
+}
+
+h3 {
+	text-align: center;
+	margin: 5px;
+	font-size: 30px;
+}
+
+table {
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Alegreya Sans SC';
+	border: 1px solid black;
+}
+
+img {
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+#ordered td {
+	width:150px;
+}

@@ -1,0 +1,182 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	padding: 0;
+	font-family: 'Amatic';
+	background-color: #f96353;
+	margin: 0;
+}
+#topbar {
+	width:100%;
+	background-color: black;
+	text-align: center;
+	position: relative;
+}
+#topbar a {
+	color: white;
+	font-family: 'Alegreya Sans SC';
+	font-size: 20px;
+	padding:5px;
+}
+#heading {
+	width:100%;
+	height:auto;
+	margin:auto;
+	text-align: center;
+	padding: 0;
+}
+
+#heading h1 {
+	font-family: 'Amatic';
+	font-size: 70px;
+	margin: 0px;
+	margin-bottom: 20px;
+	color: white;
+	display: inline;
+}
+
+#counter {
+	float:right;
+	display: inline;
+	padding: 20px 20px 0px 0px;
+	
+}
+
+#count {
+	padding: 5px;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+}
+
+#menu {
+	margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+    padding-left: 15%;
+    padding-bottom: 1%;
+    overflow: hidden;
+    font-size: 27px;
+}
+
+li {
+    float: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+i
+{
+	display: inline;
+	color: black;
+}
+
+li a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: brown;
+}
+
+.active {
+	color: brown;
+
+}
+#maintp {
+	display: table;
+}
+#catbar {
+
+	margin: 20px 10px;
+	padding: 15px;
+	font-size: 20px;
+	width: 15%;
+	background-color: #fee9e6;
+	line-height: 200%;
+	display: table-cell;
+	float:left;
+	clear: both;
+}
+
+#catbar h4 {
+	font-size: 25px;
+	text-align: center;
+	margin:0;
+}
+
+.applybut {
+	background-color: crimson;
+	color: white;
+	font-size: 20px;
+	margin: 0 30px;
+	font-family: 'Amatic';
+	
+}
+
+#content {
+	float: left;
+	display: inline;
+	position: relative;
+	width: 80%;
+}
+
+#content span{
+	display:none;
+}
+
+.product {
+	float: left;
+	margin: 15px;
+	padding: 20px;
+	font-size: 20px;
+	width: 40%;
+	height: 400px;
+	background-color: #fee9e6;
+	display: inline-block;
+	border: 2px solid gray;
+}
+
+.product img {
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 2px solid black;
+	display: block;
+}
+
+.product h2 {
+	text-align: center;
+	font-size: 25px;
+	color: crimson;
+}
+
+.product p {
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-family: 'Times New Roman';
+}
+
+.quantip {
+	width: 50px;
+}
+
+.addtocartbut {
+	float: right;
+	background-color: crimson;
+	color: white;
+	font-size: 20px;
+	margin: 0 15px;
+	font-family: 'Amatic';
+
+}
+
+.last {
+	border-top: 1px solid black;
+}

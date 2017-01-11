@@ -1,0 +1,243 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	padding: 0;
+	font-family: 'Amatic';
+	background-color: #f96353;
+	margin: 0;
+}
+#topbar {
+	width:100%;
+	background-color: black;
+	text-align: center;
+	position: relative;
+}
+#topbar a {
+	color: white;
+	font-family: 'Alegreya Sans SC';
+	font-size: 20px;
+	padding:5px;
+}
+#heading {
+	width:100%;
+	height:auto;
+	margin:auto;
+	text-align: center;
+	padding: 0;
+}
+
+#heading h1 {
+	font-family: 'Amatic';
+	font-size: 70px;
+	margin: 0px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+#counter {
+	float:right;
+	display: inline;
+	padding: 20px 20px 0px 0px;
+}
+
+#count {
+	padding: 5px;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+}
+
+#menu {
+	margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+    padding-left: 15%;
+    padding-bottom: 1%;
+    overflow: hidden;
+    font-size: 27px;
+}
+
+li {
+    float: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+i
+{
+	display: inline;
+	color: black;
+}
+
+li a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: brown;
+}
+
+.active {
+	color: brown;
+
+}
+
+#check {
+	width: 100%;
+	text-align: center;
+}
+
+#checkout {
+	background-color: crimson;
+	color: white;
+	padding: 10px;
+	font-size: 30px;
+	font-family: 'Amatic';	
+}
+
+#cart {
+	width: 100%;
+	margin: auto;
+}
+
+#cart table {
+	
+	margin: 15px auto;
+	font-size: 20px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+#cart table,tr,td,th {
+	text-align: center;
+}
+
+#cart th,td {
+	
+	width: 131px;
+}
+
+#cart td {
+	font-family: 'Alegreya Sans SC';
+}
+
+#cart table th {
+	font-weight: bold;
+	font-size: 25px;
+	border-bottom: 2px solid black;
+}
+#cart table img {
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+.delProduct
+{
+	background-color: Black;
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+	margin: 0 auto;
+	font-family: 'Amatic';	
+}
+
+.quantip {
+	width: 50px;
+}
+
+#emptymsg {
+	background-color: rgba(255,255,255,0.5);
+	width: 30%;
+	margin: 50px auto;
+	text-align: center;
+	font-size: 25px;
+	padding: 20px;
+	font-family: 'Times New Roman'
+}
+
+#emptymsg span {
+	font-family: 'Amatic';
+	font-size: 45px;
+}
+
+#emptymsg a {
+	color: brown;
+}
+
+#error_message
+{
+	font-family: 'Times New Roman';
+	font-size: 18px;
+	color: #FF0000;
+	padding: 10px;
+}
+
+#formcontainer
+{
+	width:45%;
+	margin:20px auto;
+	background-color: #fee9e6;
+	padding:15px;
+}
+
+#formmain
+{
+	margin: auto;
+	width: 90%;
+	height: 90%;
+	padding: 10px;
+	border: 2px dotted crimson;
+}
+
+#formmain fieldset
+{
+	margin:10px;
+}
+.leg
+{
+	font-size: 20px;
+	font-weight: normal;
+	color: brown;
+}
+#formmain table
+{
+	width:100%;
+	table-layout: fixed;
+}
+
+#formmain td
+{
+	width:33.33%;
+	padding:10px;
+}
+
+.mob
+{
+	width:15%;
+	min-width: 10%;
+}
+
+#butcontainer
+{
+	width:100%;
+	text-align: center;
+
+}
+.but
+{
+	background-color: crimson;
+	color:white;
+	border: 1px solid crimson;
+	font-family: 'Lithos Pro';
+	font-size:15px;
+	padding: 7px;
+	margin-right: 25px;
+}
+
